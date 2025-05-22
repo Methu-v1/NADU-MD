@@ -30,7 +30,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94760663483']
+const ownerNumber = ['94741185866']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -87,21 +87,21 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('MD Bot connected to whatsapp ✅')
 
-let up = `*Connecting DARK-MD Multidevice Whatsapp Bot ...💾*
+let up = `*Connecting METHU-MD Multidevice Whatsapp Bot ...💾*
 
 
-*😈 : 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
+*🤍 : 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
 *╭┈───────────╴╴╴•⟢*
-*│
+*│https://whatsapp.com/channel/0029Vb69IgXBqbrGn2PrF43M
 *╰┈───────────╴╴╴•⟢*
-*😈 : 𝐂𝐎𝐍𝐓𝐀𝐂𝐓*
+*🤍 : 𝐂𝐎𝐍𝐓𝐀𝐂𝐓*
 *╭┈───────────╴╴╴•⟢*
-*│wa.me/
+*│wa.me/94741185866
 *╰┈───────────╴╴╴•⟢*
 
 `;
 
-conn.sendMessage(conn.user.id,{ image: { url: `YOUR PHOTO URL` }, caption: up })
+conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/3QP0Tvw/6894.jpg` }, caption: up })
 
 }
 })
@@ -330,9 +330,9 @@ switch (command) {
             }
 
 //================ownerreact==============
-if(senderNumber.includes("94760663483")){
+if(senderNumber.includes("94741185866")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("👾")
 }
        if (config.ALLWAYS_OFFLINE === "true") {
         conn.sendPresenceUpdate('unavailable'); // Sets the bot's last seen status
