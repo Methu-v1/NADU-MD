@@ -98,7 +98,6 @@ let up = `*Connecting METHU-MD Multidevice Whatsapp Bot ...💾*
 *╭┈───────────╴╴╴•⟢*
 *│wa.me/94741185866
 *╰┈───────────╴╴╴•⟢*
-
 `;
 
 conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/3QP0Tvw/6894.jpg` }, caption: up })
